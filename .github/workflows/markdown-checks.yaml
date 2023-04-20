@@ -57,4 +57,4 @@ jobs:
           --config .github/workflows/markdownlint/config.yaml \
           --rules .github/workflows/markdownlint/md901 \
           --rules markdownlint-rule-titlecase \
-          ${{ steps.check_files_changed.outputs.changed_files }}
+          docs/
